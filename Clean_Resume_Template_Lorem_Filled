@@ -1,0 +1,226 @@
+%-------------------------
+% Original Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+% Alterations by: Jonathan Fogel
+% Website: https://github/fogeljonathan
+% Website: https://linkedin/fogeljonathan
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \text{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{}
+%-------------------------------------------
+%To add bullet points, add the character inside of "lable={} below"
+%-------------------------------------------
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}
+[label={},leftmargin=*]
+}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}
+[label={}]
+}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{YOUR LINKEDIN LINK HERE(Include https://)}{\Large Jane Doe}} & Email : \href{mailto:YOUR EMAIL HERE}{doejane@gmail.com}\\
+  
+  
+  
+  \href{YOUR LINKEDIN LINK HERE(Include https://)}{linkedin.com/jdoe} &     \href{YOUR GITHUB LINK HERE(Include https://)}{girhub.com/jdoe}\\
+  
+   & Mobile : +1-223-334-4445
+\end{tabular*}
+%-----------Summary-----------------
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Higher Education University}{Location, CA}
+      {Bachelor's-Major Studies}{Aug. 2017 -- May 2021}
+      \resumeItemListStart
+        \resumeItem{Physics:}
+          {GPA: \textbf{YOUR GPA} 3.21/4.00. \textbf{Relevant Coursework:} In porta leo nec, Nulla semper sollicitudin, Suspendisse leo velit, Feugiat a dolor, Sit amet venenatis hendrerit libero, Vivamus tristique lobortis dictum, Suspendisse et dui dignissim, Rutrum massa id, Dictum elit, Donec viverra lorem, At euismod pharetra.}
+
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Person Talker}{Place, NV}
+      {People Speaker Inc.}{Jun 2017-Aug 2021}
+      \resumeItemListStart
+        \resumeItem{}
+          {Nam ornare dignissim est et vulputate. Nulla eget pharetra sapien. Aliquam eu facilisis tortor orci.} 
+        \resumeItem{}
+          {Proin ac tristique massa. Vivamus pharetra tellus elit, sit amet iaculis quam accumsan non. Nam non.}
+        \resumeItem{}
+          {Aenean vel lacus ut mi vehicula cursus ornare et nulla.}
+        \resumeItem{}
+          {Suspendisse nec nisi mattis, gravida ante non, pulvinar lorem. Maecenas leo elit accumsan.}
+        \resumeItem{}
+          {Phasellus vel leo in dui fermentum posuere tempor vitae felis.}
+
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Robot Maker}{Town, CA}
+      {Doomsday Enterprises LLC.}{Sep 2015-Jun 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis orci.} 
+        \resumeItem{}
+          {Sed lacinia ante dolor. Aenean aliquam tellus placerat justo gravida, quis porttitor metus volutpat.}
+        \resumeItem{}
+          {Ut ullamcorper purus et nunc efficitur commodo. Fusce sit amet tempor quam. Donec ut.}
+        \resumeItem{}
+          {Integer finibus sollicitudin vulputate. Quisque lorem elit, vehicula non sapien vitae, pretium biam.}
+        \resumeItem{}
+          {Cras nec maximus neque, quis mollis tellus. Donec ornare fringilla ultricies. Sed id.}
+
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Vice Assistant Manager}{Location, CA}
+      {Vertical Business Associates}{Jun 2015-Sep 2015}
+      \resumeItemListStart
+        \resumeItem{}
+          {Mauris rutrum dapibus massa, nec pretium justo aliquet eget. Phasellus vitae dui semper turpis duis.} 
+        \resumeItem{}
+          {Proin nec neque eu dui sodales suscipit. Phasellus venenatis ipsum non dolor aliquam amet.}
+        \resumeItem{}
+          {Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ligula.}
+        \resumeItem{}
+          {Nullam eget lectus non nunc consequat accumsan. Praesent ipsum eros, luctus sed amet.}
+        \resumeItem{}
+          {Nulla in commodo nibh, eget aliquet nisi. Nunc convallis non erat et semper eleifend.}
+
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Professional Hydration Mandator}{City, PA}
+      {Parched People Corp.}{Jul 2014-Jun 2015}
+      \resumeItemListStart
+        \resumeItem{}
+          {Maecenas vulputate tortor sed libero accumsan, sed consectetur mauris efficitur. Nulla vitae mauris.} 
+        \resumeItem{}
+          {In hac habitasse platea dictumst. Nulla facilisi. Donec pulvinar lectus ut rutrum ex.}
+        \resumeItem{}
+          {Ut id tempor tortor, quis efficitur magna. Ut pellentesque magna dui, ac tempus leo nulla.}
+        \resumeItem{}
+          {Nam sodales sagittis ultrices. Mauris interdum leo vitae orci interdum, at viverra nisl blandit nec.}
+
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Line Cook}{Placefield, OH}
+      {The Krusticus Crabicus}{Jan 2015-Jun 2015}
+      \resumeItemListStart
+        \resumeItem{}
+          {Aliquam ut semper tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra turpis.} 
+        \resumeItem{}
+          {Nullam bibendum sollicitudin mi eget ultrices. Mauris vulputate, nibh vitae ultricies nec.}
+        \resumeItem{}
+          {Mauris ornare lorem augue, sed scelerisque lacus semper quis. Sed euismod iaculis mi.}
+
+      \resumeItemListEnd
+
+   
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Awards-----------------
+\section{Awards}
+  \resumeSubHeadingListStart
+        \resumeItem{}
+          {Ut a ipsum sagittis, mollis est id, gravida urna, Oct 2018}
+        \resumeItem{}
+          {Duis erat ligula, semper eget euismod id, Sep 2016}
+        \resumeItem{}
+          {Sed congue orci vel massa ornare venenatis, Sep 2014}
+        \resumeItem{}
+          {Suspendisse urna dolor, maximus ac ultrices, Jun 2014}
+        
+  \resumeSubHeadingListEnd
+
+%
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \resumeItem{}
+     {\textbf{Proficient In}: Nullam luctus, Lorem eu, ullamcorper feugiat}
+   \resumeItem{}
+     {\textbf{Experience In}: Etiam gravida, tortor et fermentum condimentum, eros mi lacinia augue, a efficitur felis}
+   \resumeItem{}
+     {\textbf{Interests}: Curabitur non, tempus erat, pellentesque egestas nibh}
+ \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
